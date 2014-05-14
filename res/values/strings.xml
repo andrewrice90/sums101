@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Sums101</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Please choose which tables and operator you would be to be tested on!</string>
+    <string name="title_activity_sum_machine">Sum Machine</string>
+    <string name="title_activity_sum_machine_part2">SumMachinePart2</string>
+    <string name="select_an_operator">Select an operator</string>
+    <string name="plus"> + </string>
+    <string name="minus"> - </string>
+    <string name="multiply"> * </string>
+    <string name="divide"> / </string>
+    <string name="tables"> Times Tables </string>
+    <string name="operatePick"> Choose an operator </string>
+    <string name="begin"> Begin the game </string>
+    <string name="equals"> = </string>
+    <string name="defaultName"> 0 </string>
+    <string name="defaultWinner"> A.N. Other </string>
+    <string name="defaultScore"> 0 </string>
+    <string name="submit"> Submit </string>
+    <string name="title_activity_high_score">HighScore</string>
+    <string name="title_activity_name_score">NameScore</string>
+    <color name="red">#FA5858 </color>
+    <color name="darkred">#FF0000 </color>
+    <color name="green">#2EFE2E</color>
+    
+
+</resources>

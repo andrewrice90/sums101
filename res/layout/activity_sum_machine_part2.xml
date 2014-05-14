@@ -1,0 +1,334 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/red"
+    tools:context=".SumMachinePart2" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|center_vertical" >
+
+            <EditText
+                android:id="@+id/editText01"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:editable="true"
+                android:enabled="false"
+                android:gravity="center_vertical"
+                android:inputType="number"
+                android:text="@string/defaultName" />
+
+            <EditText
+                android:id="@+id/op1"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:editable="true"
+                android:enabled="false"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/ran1"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:editable="true"
+                android:enabled="false"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/EditText01"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:editable="true"
+                android:enabled="false"
+                android:inputType="number"
+                android:text="@string/equals" />
+
+            <EditText
+                android:id="@+id/ans1"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:inputType="number" >
+
+                <requestFocus />
+            </EditText>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center" >
+
+            <EditText
+                android:id="@+id/editText02"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:editable="false"
+                android:enabled="false"
+                android:inputType="number"
+                android:text="@string/defaultName" />
+
+            <EditText
+                android:id="@+id/op2"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:editable="false"
+                android:enabled="false"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/ran2"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:editable="false"
+                android:enabled="false"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/EditText05"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:editable="false"
+                android:enabled="false"
+                android:inputType="number"
+                android:text="@string/equals" />
+
+            <EditText
+                android:id="@+id/ans2"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:enabled="true"
+                android:inputType="number" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/TableRow3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center" >
+
+            <EditText
+                android:id="@+id/editText03"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:inputType="number"
+                android:text="@string/defaultName" />
+
+            <EditText
+                android:id="@+id/op3"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/ran3"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/EditText10"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:inputType="number"
+                android:text="@string/equals" />
+
+            <EditText
+                android:id="@+id/ans3"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:enabled="true"
+                android:inputType="number" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center" >
+
+            <EditText
+                android:id="@+id/editText04"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:inputType="number"
+                android:text="@string/defaultName" />
+
+            <EditText
+                android:id="@+id/op4"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/ran4"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/EditText13"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:inputType="number"
+                android:text="@string/equals" />
+
+            <EditText
+                android:id="@+id/ans4"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:enabled="true"
+                android:inputType="number" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center" >
+
+            <EditText
+                android:id="@+id/editText05"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:editable="false"
+                android:enabled="false"
+                android:inputType="number"
+                android:text="@string/defaultName" />
+
+            <EditText
+                android:id="@+id/op5"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:editable="false"
+                android:enabled="false"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/ran5"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:editable="false"
+                android:enabled="false"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/EditText17"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:editable="false"
+                android:enabled="false"
+                android:inputType="number"
+                android:text="@string/equals" />
+
+            <EditText
+                android:id="@+id/ans5"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:inputType="number" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center" >
+
+            <EditText
+                android:id="@+id/editText06"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:editable="false"
+                android:enabled="false"
+                android:inputType="number"
+                android:text="@string/defaultName" />
+
+            <EditText
+                android:id="@+id/op6"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:editable="false"
+                android:enabled="false"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/ran6"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:editable="false"
+                android:enabled="false"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/EditText21"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:editable="false"
+                android:enabled="false"
+                android:inputType="number"
+                android:text="@string/equals" />
+
+            <EditText
+                android:id="@+id/ans6"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:inputType="number" />
+        </TableRow>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textScore1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="18dp"
+        android:gravity="center"
+        android:text="@string/begin"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:onClick="submit_Clicked"
+        android:text="@string/submit" />
+
+</RelativeLayout>
